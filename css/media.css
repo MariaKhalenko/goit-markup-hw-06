@@ -68,7 +68,6 @@
     letter-spacing: 0.48px
             }
 
-    }
 
     .logo {
         margin-right: 120px;
@@ -164,6 +163,7 @@
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+    align-items: center;
 
 }
 .text-footer-social {
@@ -173,11 +173,14 @@
 
 .form-footer {
     display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: baseline;
         flex-direction: column;
 }
-
+.social-links-footer {
+    gap: 16px;
+}
+  }
 
 
 @media screen and (min-width: 1158px) {
