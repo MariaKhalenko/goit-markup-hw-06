@@ -32,6 +32,7 @@
         ;
     }
     .order-section {
+        max-width: 768px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/people-ofice-tablet.jpg)
@@ -61,8 +62,11 @@
 
 
     .info-mail {
-
-        font-size: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px
+            }
 
     }
 
@@ -75,6 +79,7 @@
     }
 
     .order-section {
+        max-width: 1440px;
         padding: 112px 0;
     }
 
@@ -90,6 +95,16 @@
     .order-title {
         text-align: left;
     }
+    .order-text {
+        margin: 0;
+    }
+
+
+    
+    .feature {
+        margin: 0;
+        margin-left: 24px;
+    }
 
     .feature-list {
         flex-basis: calc((100% - 24px) / 2);
@@ -101,12 +116,13 @@
    .order-section {
        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                rgba(46, 47, 66, 0.7)),
-           url(../images/people-ofice-tablet.jpg)
+           url(../images/people-office-desk.jpg)
    }
-.team-section {
-    max-width: 768px;
-}
 
+.section-order {
+    margin: 0;
+    padding: 96px 0;
+}
 
  .team-list-company {
     display: flex;
@@ -130,10 +146,11 @@
     gap: 24px;
     row-gap: 72px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .list-portfolio-app {
     width: 330px;
+    margin: 0;
 }
 .container-list-portfolio {
     width: 330px;
@@ -160,7 +177,7 @@
         align-items: baseline;
         flex-direction: column;
 }
-}
+
 
 
 @media screen and (min-width: 1158px) {
@@ -172,14 +189,19 @@
         margin-right: auto;
        }
 
-         .container-header {
-        max-height: 72px;
+       
+        .info-adress {
+            display: flex;
+        }
+
+
+    .info-mail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
     }
 
-         .info-adress {
-             display: flex;
-    
-         }
     .order-section {
         padding: 188px 0;
     }
@@ -213,6 +235,8 @@
             flex-basis: calc((100% - 72px) / 4);
             flex-direction: column;
             align-items: flex-start;
+            width: 264px;
+            margin: 0;
         }
         .order-title {
             color: #2E2F42;
@@ -229,8 +253,8 @@
 
         .team-section {
             background-color: #F4F4FD;
-            max-width: 1448px;
-              }
+            padding: 120px 0;
+                          }
         
         .team-list-company {
             display: flex;
@@ -239,9 +263,7 @@
         }
         .team-list {
             background-color: #FFFFFF;
-            flex-basis: calc((100% - 72px) / 4);
-            flex-direction: column;
-            align-items: flex-start;
+            
 
      }
             .social-links {
@@ -277,8 +299,35 @@
                    }
         .container-foot {
             display: flex;
-            align-items: baseline;
-            gap: 50px;
+            margin: 0;
+            padding: 0;
         }
+        .logo-p {
+            margin-bottom: 0;
+            margin-right: 96px;
+            
+        }
+        .container-social-media {
+            margin-right: 56px;
+            margin-bottom: 0;
+                }
+         .form-footer {
+        margin: 0;
+        padding: 0;
+                }
     }
-        
+        @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+            .main-div {
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-desk@2.jpg);
+                    }
+                }
+
+         @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+            .main-div {
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-ofice-tablet@2.jpg);
+            }
+        }
