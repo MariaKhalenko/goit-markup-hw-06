@@ -296,27 +296,33 @@
             width: calc((100% - 48px) / 3);
             flex-direction: column;
             align-items: flex-start;
-                   }
-        .container-foot {
+       }     
+       
+       .container-foot {
             display: flex;
-            margin: 0;
-            padding: 0;
-        }
+            align-items: baseline;
+            justify-content: start;
+           }
         .logo-p {
             margin-bottom: 0;
-            margin-right: 96px;
-            
+            margin-right: 80px;
+    } 
+
+        .social-links-footer {
+            gap: 16px;
         }
-        .container-social-media {
-            margin-right: 56px;
-            margin-bottom: 0;
-                }
-         .form-footer {
-        margin: 0;
-        padding: 0;
-                }
-    }
-        @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+       .container-social-media {
+        margin-right: 56px;
+        margin-bottom: 0;
+       }
+        .form-footer {
+        justify-content: end;
+        margin-bottom: 0;
+        }        
+
+                 }
+
+                @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
             .main-div {
             background-position: center;
             background-size: cover;
