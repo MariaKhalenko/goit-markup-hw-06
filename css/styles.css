@@ -302,6 +302,7 @@ img {
 
 .team-list-company {
     display: block;
+    
 }
 .team-list {
     display: flex;
@@ -313,8 +314,13 @@ img {
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  
+    
 }
+.indentation {
+    margin-bottom: 72px;
+}
+
+
 .social-links {
     display: flex;
     gap: 24px;
@@ -450,6 +456,11 @@ background-color: #404bbf;
     position: relative;
     overflow: hidden;
 }
+.indentation2 {
+    margin-bottom: 48px;
+}
+
+
 .overlay {
     background-color: #4D5AE5;
     color: #f4f4fd;
@@ -861,7 +872,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 300ms ease;
 }
 
-.menu-container .is-open {
+.menu-container.is-open {
     transform: translateX(0);
 }
 

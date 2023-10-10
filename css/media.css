@@ -180,6 +180,15 @@
 .social-links-footer {
     gap: 16px;
 }
+.menu-container {
+    display: none;
+}
+.indentation {
+    margin: 0;
+}
+.indentation2 {
+    margin: 0;
+}
   }
   
 
